@@ -1,4 +1,4 @@
-FROM php:8.0.8-apache
+FROM php:7-apache
 
 RUN ln -snf /usr/share/zoneinfo/Europe/Moscow /etc/localtime \
     && echo Europe/Moscow > /etc/timezone \
